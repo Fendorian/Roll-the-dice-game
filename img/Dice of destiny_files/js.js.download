@@ -1,0 +1,34 @@
+// Randomness
+function save() {
+    let random = Math.ceil(Math.random()*6);
+if(random<=1) {
+    
+    document.getElementById('result').innerHTML = "Unfortunately, you are supposed to die!";
+    document.getElementById('result').style.color = "red"; 
+
+}
+else if (random<=2) {
+    document.getElementById('result').innerHTML = "Unfortunately, you are supposed to die!";
+    document.getElementById('result').style.color = "red";
+    
+}
+else if (random<=3) {
+    document.getElementById('result').innerHTML = "Unfortunately, you are supposed to die!";
+    document.getElementById('result').style.color = "red";
+    
+}
+else if (random<=4) {
+    document.getElementById('result').innerHTML = "Unfortunately, you are supposed to die!";
+    document.getElementById('result').style.color = "red";
+    
+}
+else if (random<=5) {
+    document.getElementById('result').innerHTML = "Congrats, you survived!";
+    document.getElementById('result').style.color = "green";
+} else if (random<=6){
+    document.getElementById('result').innerHTML = "Congrats, you survived!";
+    document.getElementById('result').style.color = "green";
+   
+}
+
+};

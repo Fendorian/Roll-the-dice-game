@@ -1,0 +1,46 @@
+body {
+  background-image: url("/img/Zaun_Wallpaper_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 8rem;
+
+}
+.card-title {
+    text-align: center;
+    font-size: 5rem;
+}
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p-size {
+    font-size: 22px;
+}
+.dbcolor {
+background-color: black;
+color: white;
+text-align: center;
+}
+.slika {
+    height: 220px;
+    width: 400px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.position {
+    text-align: center;
+    margin-top: 2rem;
+}
+.position1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+/* Result css */
+p {
+    font-size: 33px;
+    text-align: center;
+}
